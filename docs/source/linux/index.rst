@@ -9,7 +9,7 @@ Contents
 --------
 
 .. toctree::
-
+   :maxdepth: 1
    introduction
    remote-login
    directory-action
