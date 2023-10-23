@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = u'Shell实践手册'
+copyright = u'2023, https://coding3min.com, 公众号：机智的程序员小熊'
+author = u'minibear2333'
 
 release = '0.1'
 version = '0.1.0'
