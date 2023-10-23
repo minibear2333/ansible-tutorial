@@ -1,9 +1,3 @@
-Template for the Read the Docs tutorial
-=======================================
+# Shell实践手册
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+以任务的形式，从0到1学习shell

@@ -1,22 +1,24 @@
-Welcome to Lumache's documentation!
+Shell实践手册
 ===================================
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   从实践开始学shell编程
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   introduction
+   variables
+   parameters
+   arrays
+   operators
+   echo
+   printf
+   test
+   flow-control
+   function
+   input-output-redirection 
+   files-include
