@@ -1,0 +1,19 @@
+---
+- hosts: webservers
+  remote_user: root
+  vars:
+    - http_port: 8080
+    - max_clients: 200
+  tasks:
+    - name: ensure httpd is installed
+      yum:
+        name: httpd
+        state: present
+    - name: update httpd config
+      template:
+        src: /srv/httpd.conf.j2
+        dest: /etc/httpd.conf
+    - name: restart httpd service
+      service:
+        name: httpd
+        state: retarted

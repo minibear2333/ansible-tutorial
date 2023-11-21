@@ -1,0 +1,9 @@
+---
+- name: setup web server        
+  hosts: servera
+  remote_user: devops
+  become: true
+  tasks:
+    - name: update httpd             
+      yum:
+        name: httpd

@@ -10,4 +10,7 @@ Contents
 
 .. toctree::
 
-   introduction
+   01.base
+   02.playbook
+   03.var_fact
+   04.roles

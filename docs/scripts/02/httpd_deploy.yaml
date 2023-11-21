@@ -1,0 +1,24 @@
+---
+- name: deploy web server              
+  hosts: webservers
+  tasks:
+    # 安装httpd
+    - name: install httpd                       
+      yum:
+        name: httpd
+        state: present
+    - name: set web service enabled 
+      service:
+        name: httpd
+        enabled: true
+        state: started
+    - name: prepare index.html             
+      copy:
+        content: |
+          Hello laoma.
+          Welcome to servera.
+        dest: "/var/www/html/index.html"
+    - name: test httpd
+      uri:
+        url: http://127.0.0.1
+        status_code: 200

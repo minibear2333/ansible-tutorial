@@ -1,0 +1,11 @@
+---
+- name: "hostname managed"
+  hosts: local
+  tasks:
+  - name: "modify hostname"
+    hostname:
+      name: '{{ hostname }}'
+  - name: "add host informatica to /etc/hosts"
+    lineinfile:
+      path: '/etc/hosts'
+      line: '{{ inventory_hostname }}  {{ hostname }}'
