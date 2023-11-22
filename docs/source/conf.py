@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = u'Shell实践手册'
+project = u'Ansible实践手册'
 copyright = u'2023, https://coding3min.com, 公众号：机智的程序员小熊'
 author = u'minibear2333'
 
