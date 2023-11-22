@@ -1,6 +1,6 @@
 主机名： {{ ansible_facts['hostname'] }}
 主机IP： {{ ansible_facts['default_ipv4']['address'] }}
 主机DNS： {{ ansible_facts['dns']['nameservers'] }}
-boot分区： {{ ansible_facts['devices']['sda']['partitions']['sda1']['size'] }}
+boot分区： {{ ansible_facts['devices']['vda']['partitions']['vda1']['size'] }}
 内核： {{ ansible_facts['kernel'] }}
 内存空闲： {{ ansible_facts['memfree_mb'] }}
